@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tandartsafspraak</title>
+    </head>
+    <body>
+        <h1>Tandartsafspraak</h1><br>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<img src="afbeldingen/tandarts1.jpg" width="300">
+<img src="afbeldingen/tandarts2.jpg" width="300">
+<img src="afbeldingen/tandarts3.jpg" width="300">
+  <form>
+    <fieldset>
+        <h2><b><legend>Personalijke gegevens</legend></h2></b>
+       <br>
+        <tr>
+            <td><b> Uw naam</b></td>
+            <td><input type="text" name="name "></td>
+        </tr>
+        <br>
+        <br>
+            <tr>
+            <td><b>Uw geboortedatum</b></td>
+            <td><input type="date" name="datum" max="2080-12-31"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+            <td><b>Uw e-mailadres</b></td>
+            <td><input type="email" name="emailadres"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+            <td><b>Uw telefoonnummer</b></td>
+            <td><input type="tel" name="telefoonnummer"></td>
+            </tr>   
+    </fieldset>
+    <br>
+    <fieldset>
+        <td><h2><b>Klachten</b></h2></td>
+        <b>Selecteer uw klachten</b>
+        <td>
+            <input type="checkbox" name="klachten" value="Kaakklachten"> Kaakklachten
+            <input type="checkbox" name="klachten" value="Kiespijn"> Kiespijn
+            <input type="checkbox" name="klachten" value="Tandsteen"> Tandsteen
+            <input type="checkbox" name="klachten" value="Bloedend tandvlees"> Bloedend tandvlees
+        </td>
+        <br>
+        <br>
+
+<td><b>Selecteer uw foto bestand </b></td>
+<td><input type="file" name="foto"> </td>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <td><b>Beschrijving van uw klachten</b></td><br>
+        <br>
+<td><textarea name ="bericht" maxlength ="1500">
+</textarea></td></tr>
+<br>
+<tr>
+            <td><b>Wanneer wilt uw langs komen?</b></td>
+            <td><input type="date" name="datum" max="2080-12-31"></td>
+            </tr>
+    </fieldset>
+  </form>  
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+    <input type="submit" value="Verzend">
+</body>
+</html>
